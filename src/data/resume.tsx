@@ -11,7 +11,7 @@ export const DATA = {
     "Aspiring Cloud Engineer | Tech Explorer",
   summary:
     "Currently working at Bouygues Energies & Services (Equans Digital) as a Network Technician, while studying Networks, Development, and Cloud Computing at IUT Béziers.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/me.png",
   skills: [
     "React",
     "Next.js",
