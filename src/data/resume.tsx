@@ -51,14 +51,14 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "",
         icon: Icons.x,
 
         navbar:  false,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "",
         icon: Icons.youtube,
         navbar: false,
       },
@@ -109,6 +109,34 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Dyctalo-test",
+      href: "https://toulliou.org",
+      dates: "Feb 2025 - Feb 2025",
+      active: true,
+      description:
+        "For candidate at engeneering school, I created a portfolio to present my skills and my projects. At the same time I learned how to use Next.js and TailwindCSS.",
+      technologies: [
+        "Next.js",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://toulliou.org",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Mtoulliou/portfolio",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/portfolio.png",
+      video: "",
+    },
     {
       title: "Portfolio",
       href: "https://toulliou.org",
@@ -162,28 +190,22 @@ export const DATA = {
     },
     {
       title: "Kubernetes Cluster",
-      href: "https://github.com/Mtoulliou/SAE5D03-KUBERNETES",
-      dates: "Jan 2025 - March 2025",
+      href: "https://github.com/Mtoulliou/JS-Dictalo",
+      dates: "Feb 2025 - Feb 2025",
       active: true,
       description:
-        "Answered a client call to create a Kubernetes cluster mock-up with services like Cilium, Rook-Ceph, and MetalLB, using infrastructure as code. This project was carried out with my classmate.",
+        "Make a little typing test for learn JavaScript",
       technologies: [
-        "Openstack",
-        "Kubernetes",
-        "Ansible",
-        "Terraform",
-        "Cilium",
-        "MetalLB",
-        "Rook-Ceph",
+        "JavaScript",
       ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/Mtoulliou/SAE5D03-KUBERNETES",
+          href: "https://github.com/Mtoulliou/JS-Dictalo",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/Kubernetes.png",
+      image: "/Dictalo.png",
       video: "",
     },
   ],
