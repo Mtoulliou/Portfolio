@@ -115,7 +115,7 @@ export const DATA = {
       dates: "Feb 2025 - Feb 2025",
       active: true,
       description:
-        "For candidate at engeneering school, I created a portfolio to present my skills and my projects. At the same time I learned how to use Next.js and TailwindCSS.",
+        "Make a little typing test for learn JavaScript.",
       technologies: [
         "Next.js",
         "TailwindCSS",
@@ -189,7 +189,7 @@ export const DATA = {
       dates: "Feb 2025 - Feb 2025",
       active: true,
       description:
-        "Make a little typing test for learn JavaScript",
+        "Deployed a Kubernetes cluster on a local network to discover Kubernetes and some technologie around like Rook-Ceph, Cilium. This project was done with my classmate.",
       technologies: [
         "JavaScript",
       ],
