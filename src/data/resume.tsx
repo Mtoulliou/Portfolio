@@ -64,7 +64,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "#matteo.meze@gmail.com",
         icon: Icons.email,
 
         navbar: true,
@@ -134,7 +134,7 @@ export const DATA = {
     },
     {
       title: "Portfolio",
-      href: "https://toulliou.org",
+      href: "https://toulliou-porfolio.vercel.app",
       dates: "Feb 2025 - Feb 2025",
       active: true,
       description:
@@ -148,7 +148,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://toulliou.org",
+          href: "https://toulliou-porfolio.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
