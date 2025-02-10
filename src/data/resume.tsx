@@ -111,7 +111,7 @@ export const DATA = {
   projects: [
     {
       title: "Dyctalo-test",
-      href: "https://toulliou.org",
+      href: "https://github.com/Mtoulliou/JS-Dictalo",
       dates: "Feb 2025 - Feb 2025",
       active: true,
       description:
@@ -124,17 +124,12 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://toulliou.org",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Source",
-          href: "https://github.com/Mtoulliou/portfolio",
+          href: "https://github.com/Mtoulliou/JS-Dictalo",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/portfolio.png",
+      image: "/Dictalo.png",
       video: "",
     },
     {
@@ -190,7 +185,7 @@ export const DATA = {
     },
     {
       title: "Kubernetes Cluster",
-      href: "https://github.com/Mtoulliou/JS-Dictalo",
+      href: "https://github.com/Mtoulliou/SAE5D03-KUBERNETES",
       dates: "Feb 2025 - Feb 2025",
       active: true,
       description:
@@ -201,11 +196,11 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/Mtoulliou/JS-Dictalo",
+          href: "https://github.com/Mtoulliou/SAE5D03-KUBERNETES",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/Dictalo.png",
+      image: "/Kubernetes.png",
       video: "",
     },
   ],
